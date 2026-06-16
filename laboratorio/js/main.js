@@ -12,7 +12,7 @@ function Total(sub, desc) {
 }
 let subtotal = Subtotal(precio, cantidad);
 let total = Total(subtotal, descuento);
-let nombreLimpio = nom.trim();
+let nomLimpio = nom.trim();
 let nomMayusculas = nomLimpio.toUpperCase();
 let PalabraClave = nomLimpio.toLowerCase().includes("gamer");
 
